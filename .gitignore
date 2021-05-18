@@ -1,5 +1,4 @@
 # Unignore api dir
-api/*
 rtmpserver/**
 !/rtmpserver
 /rtmpserver/*
