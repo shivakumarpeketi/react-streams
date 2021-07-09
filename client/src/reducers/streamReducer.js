@@ -7,6 +7,7 @@ import {
   DELETE_STREAM
 } from '../actions/types';
 
+//Stream Reducer
 export default (state = {}, action) => {
   switch (action.type) {
     case FETCH_STREAMS:
