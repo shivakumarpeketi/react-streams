@@ -12,7 +12,7 @@ const store = createStore(
   reducers,
   composeEnhancers(applyMiddleware(reduxThunk))
 );
-
+//Basic app
 ReactDOM.render(
   <Provider store={store}>
     <App />
